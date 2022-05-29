@@ -1,0 +1,92 @@
+body{height:100vh;
+width: 99vw;
+background-color:#336699 }
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+
+[class*="col-"] {width: 100%;}
+img{width: 100%; height: auto;}
+
+@media only screen and (min-width: 400px)  {
+  img{width: 350px;}
+}
+
+@media only screen and (min-width: 976px) {
+  [class*="col-"] {
+    float: left;
+    padding-left: 2.085%;padding-right: 2.085%;
+  }
+  .col-2 {width: 16.66%; padding-left: 2.085%;padding-right: 2.085%;}
+  .col-3 {width: 25%;}
+  .col-6 {width: 50%;}
+  .col-9 {width: 75%;padding-left: 2.085%;padding-right: 2.085%}
+
+}
+
+header{
+  background-image: url("../img/alkmaar.webp");
+  background-position: center;
+  height:15vh;
+  text-align: center;
+  padding:0px;
+  margin:0px;
+  width: 100%
+}
+h1{
+  font-family: arial;
+  font-size: 4rem;
+  padding:0px;
+  margin:0px;
+  color: white;
+}
+body{
+  margin:0px;
+  padding:0px;
+  font-family: arial;
+}
+#content{
+  height: 100%;
+}
+section{
+  padding: 20px;
+}
+h4{padding: 0px;margin: 0px}
+h3, ul{
+  margin:0px;
+  padding-top: 20px;
+  padding-bottom: :  20px;
+}
+li{  line-height: 1.8;}
+
+.links{
+  background-color: #336699;
+  display: inline-block;
+}
+.rechts{
+  background-color: #FFCC66;
+  display: inline-block;
+}
+.attractie{
+  display: inline-block;
+  padding: 25px;
+}
+.img_att{
+  float: right;
+  padding: 5px;
+}
+footer{
+  height: 5vh;
+  width: 100%;
+  background-color: #003366;
+  position: fixed;
+  bottom:0px;
+  padding-bottom:0;
+}
+#copyright{
+  position:absolute;
+  bottom:0;
+  right:0;
+  font-family: sans-serif;
+  color:white;
+  font-size: 12px;
+  padding: 5px;
+}
